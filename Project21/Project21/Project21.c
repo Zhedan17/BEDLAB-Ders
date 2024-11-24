@@ -15,12 +15,19 @@ int ShowMe(int x)
 	return 5 + x;
 }
 
+int Number(int x,int y)
+{	
+	return x + y;
+}
+
  int main()
  {
 	 int myNumbers[6] = { 10,20,30,40,50,60 };
 	 allNumbers(myNumbers);
 	 printf("\n\n");
 
-	 printf("Result is %d\n", ShowMe(2));
+	 printf("Result is %d\n\n", ShowMe(2));
+
+	 printf("Sum of entered number: %d\n\n", Number(1,6));
 	 return 0;
  }
